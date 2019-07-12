@@ -1,6 +1,6 @@
 py=input(' ')
 if py in ('a','e','i','o','u'):
-  	print("%s is a vowel." % py)
+  	print("Vowel")
 else:
     print("Consonant")
 	
