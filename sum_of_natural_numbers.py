@@ -1,5 +1,5 @@
-a=int(input(""))
+a=int(input())
 sum=0
-while(a>0)
-  sum=sum+n
+for i in range(1,a+1):
+  sum=sum+i
   print(sum)
