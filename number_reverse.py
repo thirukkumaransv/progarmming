@@ -1,4 +1,4 @@
-n=input()
-n=list(n)
-n.reverse()
-print(''.join(n))
+r=input()
+r=list(r)
+r.reverse()
+print(''.join(r)
