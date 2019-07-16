@@ -1,9 +1,10 @@
-a=input()
-b=list(map(str,input().split()))
-b.sort(reverse=True)
-c=list(map(int,b))
-if sum(c)==0:
-    print("0")
+x=int(input())
+y=input("")
+z=list(y.split(" "))
+z.sort(reverse=True)
+y=list(map(int,z))
+if sum(y)==0:
+  print("0")
 else:
-    d="".join(y)
-    print(d)
+  a="".join(z)
+  print(a)
