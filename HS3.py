@@ -1,11 +1,11 @@
-m=int(input())
-n=list(map(int,input().split(None,m)[:m]))
-m=[]
-for i in range(len(n)):
-    if n[i]==i:
+aa=int(input())
+bb=list(map(int,input().split(None,aa)[:aa]))
+aa=[]
+for i in range(len(bb)):
+    if bb[i]==i:
         
-        m.append(n[i])
-if len(m)==0:
+        aa.append(bb[i])
+if len(aa)==0:
     print(-1)
 else:
-    print(" ".join(map(str,m)))
+    print(" ".join(map(str,aa)))
