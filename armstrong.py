@@ -1,5 +1,5 @@
-b,c=map(int,input().split())
-for i in range(b+1,c):
+d,e=map(int,input().split())
+for i in range(d+1,e):
   sum=0
   a=i
   while a>0:
